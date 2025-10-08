@@ -11,7 +11,7 @@
     <body>
 <div style = " width : 640px ; height : 480px ; max - width : 100 % " > <div id = "game" ></div> </div> <script type = "text/javascript" > 
     EJS_player = '#game' ; 
-    EJS_gameUrl = '' ; // URL-адрес игрового диска 
+    EJS_gameUrl = 'SuperMario.sfc' ; // URL-адрес игрового диска 
     EJS_core = 'snes' ; 
     EJS_mouse = false ; // Мышь SNES 
     EJS_multitap = false ; // Многократное нажатие SNES </script> <script src = "https://www.emulatorjs.com/loader.js" ></script> 
