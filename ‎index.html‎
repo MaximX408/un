@@ -9,17 +9,11 @@
         </style>
     </head>
     <body>
-        <div style="width:100%;height:100%;max-width:100%">
-            <div id="game"></div>
-        </div>
-        <script>
-            EJS_player = "#game";
-            EJS_core = "snes";
-            EJS_gameName = "SuperMarioWorldTalkingCat";
-            EJS_color = "#ff0000";
-            EJS_pathtodata = "https://cdn.emulatorjs.org/stable/data/";
-            EJS_gameUrl = "Super Mario World (U) [T-Rus1.0 TalkingCat (14.02.2023)].sfc";
-        </script>
-        <script src="https://cdn.emulatorjs.org/stable/data/loader.js"></script>
+<div style = " width : 640px ; height : 480px ; max - width : 100 % " > <div id = "game" ></div> </div> <script type = "text/javascript" > 
+    EJS_player = '#game' ; 
+    EJS_gameUrl = '' ; // URL-адрес игрового диска 
+    EJS_core = 'snes' ; 
+    EJS_mouse = false ; // Мышь SNES 
+    EJS_multitap = false ; // Многократное нажатие SNES </script> <script src = "https://www.emulatorjs.com/loader.js" ></script> 
     </body>
 </html>
